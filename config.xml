@@ -32,9 +32,9 @@ Jesus Alberto Martinez Nolasco
 <plugin name="cordova-plugin-geolocation" spec="2.4.3"/>
 
 <!--para accesar a internet-->
-<allow-internet href="https://*/*"/>
+<allow-intent href="https://*/*"/>
 <acces origin="https://*/*"/>
-<allow-internet href="http://*/*"/>
+<allow-intent href="http://*/*"/>
 <acces origin="http://*/*"/>
 <plugin name="cordova-plugin-whitelist" source="npm"/>
 
